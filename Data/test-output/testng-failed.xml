@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="Sathishkumar"/>
+  <parameter name="username" value="Sathishkumar"/>
+  <listeners>
+    <listener class-name="org.JavaMain.Transform"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="password" value="Sathishkumar"/>
+    <parameter name="username" value="Sathishkumar"/>
+    <classes>
+      <class name="org.JavaMain.Summa2">
+        <methods>
+          <include name="syr2"/>
+          <include name="Exte"/>
+          <include name="repo"/>
+        </methods>
+      </class> <!-- org.JavaMain.Summa2 -->
+      <class name="org.JavaMain.Summa">
+        <methods>
+          <include name="syr23"/>
+        </methods>
+      </class> <!-- org.JavaMain.Summa -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

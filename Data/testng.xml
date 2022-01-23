@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="org.JavaMain.Transform"></listener>
+
+
+</listeners>
+  <test name="Test">
+ 
+  <parameter name="username" value="Sathishkumar"></parameter>
+    <parameter name="password" value="Sathishkumar"></parameter>
+  
+    <classes>
+      <class name="org.JavaMain.Summa"/>
+      <class name="org.JavaMain.Summa2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
